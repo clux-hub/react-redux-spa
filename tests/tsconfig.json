@@ -1,0 +1,12 @@
+{
+  "extends": "../src/tsconfig.json",
+  "compilerOptions": {
+    "types": ["../typings/assets", "jest", "node"],
+    "paths": {
+      "@/*": ["../src/*"]
+    }
+  },
+  "references": [{"path": "../src"}],
+  "include": ["./"],
+  "exclude": []
+}
