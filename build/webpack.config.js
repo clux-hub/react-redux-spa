@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const path = require('path');
 const chalk = require('chalk');
 const fs = require('fs');
@@ -32,7 +31,6 @@ const baseConfig = require(baseConfigPath);
 const envConfig = fs.existsSync(envConfigPath) ? require(envConfigPath) : {};
 const projectConfig = deepExtend({}, baseConfig[nodeEnv], envConfig[nodeEnv]);
 const projectConfigJson = jsonFormat(projectConfig, {type: 'space'});
-// eslint-disable-next-line no-nested-ternary
 const devtool = isProdModel ? 'cheap-module-source-map' : debugMode ? 'eval-cheap-module-source-map' : 'eval';
 
 console.info(`config: \n${chalk.blue(projectConfigJson)}`);

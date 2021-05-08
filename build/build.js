@@ -1,9 +1,10 @@
 const webpack = require('webpack');
 const fs = require('fs-extra');
 const path = require('path');
-const {patch} = require('@clux/dev-utils/dist/patch-actions');
 const {clientWebpackConfig, projectConfigJson, distPath, publicPath, envPath} = require('./webpack.config');
 
+// 如果需要兼容不支持proxy的环境，需要执行以下补丁操作
+// const {patch} = require('@clux/dev-utils/dist/patch-actions');
 // patch();
 
 fs.ensureDirSync(distPath);

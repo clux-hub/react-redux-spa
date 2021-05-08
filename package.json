@@ -16,8 +16,8 @@
   ],
   "scripts": {
     "patchActions": "clux-patch-actions patch",
-    "type": "tsc --noEmit -p ./src && tsc --noEmit -p ./mock",
-    "eslint": "eslint --cache ./",
+    "typeCheck": "tsc --build ./tests",
+    "eslint": "cross-env NODE_ENV=production eslint --cache ./",
     "stylelint": "stylelint \"./src/**/*.less\"",
     "checkDev": "yarn type & eslint --cache ./mock",
     "checkPro": "tsc --noEmit -p ./src & eslint --cache ./mock && eslint --cache ./ & yarn stylelint",
@@ -50,7 +50,7 @@
     "@types/express": "~4.17.9"
   },
   "dependencies": {
-    "@clux/react-web": "~0.0.3",
+    "@clux/react-web": "~0.0.4",
     "axios": "~0.21.0",
     "pp-scroll": "1.1.0",
     "react": "~17.0.1",
@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@clux/dev-pkg": "~0.0.2",
-    "@clux/dev-utils": "~0.0.1",
+    "@clux/dev-utils": "~0.0.2",
     "@clux/dev-webpack": "~0.0.1",
     "@commitlint/cli": "~12.1.1",
     "@commitlint/config-conventional": "~12.1.1",

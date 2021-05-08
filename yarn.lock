@@ -1001,10 +1001,10 @@
     babel-plugin-root-import "~6.6.0"
     core-js "*"
 
-"@clux/core@^0.0.3":
-  version "0.0.3"
-  resolved "http://localhost:4873/@clux%2fcore/-/core-0.0.3.tgz#ef3bf14f0f2555a5058f21c35380fcfb2e389db9"
-  integrity sha512-hzj0wXWjud4g2CWi3pdxoTXdHnSqT35m6ETUwPbNtFnnkXdgFQUDn3b2xzOVNEIqx8S2NNTxMKOOJtZXXxS52Q==
+"@clux/core@^0.0.4":
+  version "0.0.4"
+  resolved "http://localhost:4873/@clux%2fcore/-/core-0.0.4.tgz#62175d022b170cb32ec514dec319c9f2b2870ea0"
+  integrity sha512-3nyInkPtVlNzbi5sHxh4WGhXKwu19uAeqP3tnkU8ApekP6Sui9vh/LyYwq/WPvPKRWdtPQRVnuKNOZIa3QJ0lQ==
   dependencies:
     "@babel/runtime" "~7.12.18"
 
@@ -1035,10 +1035,19 @@
     ts-node "^9.1.0"
     tsconfig-paths "^3.9.0"
 
-"@clux/dev-utils@^0.0.1", "@clux/dev-utils@~0.0.1":
+"@clux/dev-utils@^0.0.1":
   version "0.0.1"
   resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.1.tgz#56d9a12748cc3accfc20bb8bf6ffff1a0b5f6d05"
   integrity sha512-p53KMAgfLDLSsJDSxhNIjxJZ9o8YSVtFB3tAUSALCcLJR2Bjr+dPEWTL/tgxkY2udg9VAmTTKCf2zVjJQWcNDQ==
+  dependencies:
+    chalk "^4.0.0"
+    commander "^6.0.0"
+    typescript-json-schema "^0.46.0"
+
+"@clux/dev-utils@~0.0.2":
+  version "0.0.2"
+  resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.2.tgz#fac3a07cdb1aa21309f0cd7ab0b7b69f0e02339a"
+  integrity sha512-zRbR2rz9jQUmodLPsq2K2dpJIujzHJW0L5gAMHESQpVE7FSutevyjqxx+T5QdIva1MhPVqoYK/pOpCrKybQsZA==
   dependencies:
     chalk "^4.0.0"
     commander "^6.0.0"
@@ -1091,32 +1100,32 @@
     eslint-plugin-react "~7.23.0"
     eslint-plugin-react-hooks "~4.2.0"
 
-"@clux/react-web@~0.0.3":
-  version "0.0.3"
-  resolved "http://localhost:4873/@clux%2freact-web/-/react-web-0.0.3.tgz#5af256bc487ae5b15f98bf419162b3b5c2fb6764"
-  integrity sha512-at4hBV075jD0iRrYZ8HxqCfGzZp/QjyIgESJXpILjHL7XrhQTBs8bUH+ASwPhsEKJyZck05OfYh1UFCz1vbZXw==
+"@clux/react-web@~0.0.4":
+  version "0.0.4"
+  resolved "http://localhost:4873/@clux%2freact-web/-/react-web-0.0.4.tgz#1073f8e286056e69c4c1ee6829fb26281ec6097f"
+  integrity sha512-aRyjI40QoBBImDUa8ip1DHX041tvd0SLDvx4JhyxJGE0nFoetqDTX3FsR2aeaP0pKhubUCPL4hwJteYGOWIf7g==
   dependencies:
-    "@clux/core" "^0.0.3"
-    "@clux/route-browser" "^0.0.3"
+    "@clux/core" "^0.0.4"
+    "@clux/route-browser" "^0.0.4"
 
-"@clux/route-browser@^0.0.3":
-  version "0.0.3"
-  resolved "http://localhost:4873/@clux%2froute-browser/-/route-browser-0.0.3.tgz#abe8c11ce69514c5700a0c3a750dcd4da9e3562b"
-  integrity sha512-Tk33bhgrCzlVYosvObcTU7wuiX99QxTmcqilZMwCHj+xF5f5J5DszjUIxkZ/U+HLK+t6jcXFpglJ+EXwdvM3Jg==
+"@clux/route-browser@^0.0.4":
+  version "0.0.4"
+  resolved "http://localhost:4873/@clux%2froute-browser/-/route-browser-0.0.4.tgz#64e2c0f03afff40f499c4ef5c3f084c095522cb6"
+  integrity sha512-N7lwuFT1kxJacqYbymn460cBeClxiPJqAqvsUhO+KgqXKCae8m2hnc+QRLc1pyJWqTDIY1lMc/cfy7+pFyV52A==
   dependencies:
     "@babel/runtime" "~7.12.18"
-    "@clux/core" "^0.0.3"
-    "@clux/route" "^0.0.3"
+    "@clux/core" "^0.0.4"
+    "@clux/route" "^0.0.4"
     "@types/history" "~4.7.7"
     history "~4.10.1"
 
-"@clux/route@^0.0.3":
-  version "0.0.3"
-  resolved "http://localhost:4873/@clux%2froute/-/route-0.0.3.tgz#d29a88a64daa8a1b55823a3209bf467fe9bb0c6e"
-  integrity sha512-Tm6lRk0VSAK4+U6mWJEkvSMlseMtgEBGQ2RbbNjAT3TyzDtVwoAgn3LOEz8h1QlnHd+V/d1fyXdvYIpW+hJETw==
+"@clux/route@^0.0.4":
+  version "0.0.4"
+  resolved "http://localhost:4873/@clux%2froute/-/route-0.0.4.tgz#2d82852f505bede445504ce656ba389f65453ac8"
+  integrity sha512-a3zvxPq7SE3lsF0zMmoX8oFgKgvfegi7JXrPEMem8kISKxsF19CxgNliid5/9k8vN2aLWxRJTcNQJJkM7dF+IA==
   dependencies:
     "@babel/runtime" "~7.12.18"
-    "@clux/core" "^0.0.3"
+    "@clux/core" "^0.0.4"
 
 "@clux/stylelint-config-recommended@~0.0.1":
   version "0.0.1"
