@@ -8,6 +8,7 @@
     "noEmit": false,
     "declaration": true,
     "emitDeclarationOnly": true,
+    "declarationDir": "../dist/types",
     "allowJs": true,
     "checkJs": false,
     "strict": true,
@@ -29,6 +30,8 @@
     "noImplicitAny": false,
     "esModuleInterop": true,
     "composite": true,
+    "baseUrl": "./",
+    "rootDir": "./",
     "paths": {
       "@/*": ["./*"]
     }

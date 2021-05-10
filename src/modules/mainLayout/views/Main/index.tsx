@@ -20,7 +20,7 @@ const Component: React.FC<StoreProps & DispatchProps & OwnerProps> = ({subView})
     <>
       <Navigation />
       <div className={styles.root}>
-        <Switch elseView={<NotFound />}>ddd</Switch>
+        <Switch elseView={<NotFound />}>www</Switch>
       </div>
       <TabBar />
     </>

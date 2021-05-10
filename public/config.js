@@ -12,10 +12,10 @@ const apiProxy = {
   },
 };
 
-const apiMaps = Object.keys(apiProxy).reduce((map, key) => {
-  map[key] = apiProxy[key].target;
-  return map;
-}, {});
+// const apiMaps = Object.keys(apiProxy).reduce((map, key) => {
+//   map[key] = apiProxy[key].target;
+//   return map;
+// }, {});
 
 const base = {
   devServer: 'http://localhost:4002',

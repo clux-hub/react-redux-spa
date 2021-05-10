@@ -1035,19 +1035,19 @@
     ts-node "^9.1.0"
     tsconfig-paths "^3.9.0"
 
-"@clux/dev-utils@^0.0.1":
-  version "0.0.1"
-  resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.1.tgz#56d9a12748cc3accfc20bb8bf6ffff1a0b5f6d05"
-  integrity sha512-p53KMAgfLDLSsJDSxhNIjxJZ9o8YSVtFB3tAUSALCcLJR2Bjr+dPEWTL/tgxkY2udg9VAmTTKCf2zVjJQWcNDQ==
+"@clux/dev-utils@^0.0.2":
+  version "0.0.2"
+  resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.2.tgz#fac3a07cdb1aa21309f0cd7ab0b7b69f0e02339a"
+  integrity sha512-zRbR2rz9jQUmodLPsq2K2dpJIujzHJW0L5gAMHESQpVE7FSutevyjqxx+T5QdIva1MhPVqoYK/pOpCrKybQsZA==
   dependencies:
     chalk "^4.0.0"
     commander "^6.0.0"
     typescript-json-schema "^0.46.0"
 
-"@clux/dev-utils@~0.0.2":
-  version "0.0.2"
-  resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.2.tgz#fac3a07cdb1aa21309f0cd7ab0b7b69f0e02339a"
-  integrity sha512-zRbR2rz9jQUmodLPsq2K2dpJIujzHJW0L5gAMHESQpVE7FSutevyjqxx+T5QdIva1MhPVqoYK/pOpCrKybQsZA==
+"@clux/dev-utils@~0.0.3":
+  version "0.0.3"
+  resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.3.tgz#650246a4c9326d5fe6c016b879a2bbe77f2b25d9"
+  integrity sha512-GoDp9eWZDUmHVdNRBmGohbWNPjn4N1TmPvLln2y7+3Srx2+La3s4OLhicZkXoQ10mWIm7Ht1Gpovls7nbaZGaA==
   dependencies:
     chalk "^4.0.0"
     commander "^6.0.0"

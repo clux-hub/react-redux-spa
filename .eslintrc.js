@@ -1,3 +1,5 @@
+const tsconfig = require('./tsconfig-eslint.json');
+
 module.exports = {
   root: true,
   extends: ['plugin:@clux/recommended/react'],
@@ -9,5 +11,5 @@ module.exports = {
     project: './tsconfig-eslint.json',
   },
   rules: {},
-  ignorePatterns: ['**/dist', '**/docs', '**/lib', './storage'],
+  ignorePatterns: tsconfig.exclude,
 };
